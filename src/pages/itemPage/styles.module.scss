@@ -1,0 +1,43 @@
+.container {
+  @apply w-[100%] my-6 mx-auto flex flex-col gap-10 md:w-[80%] lg:flex-row;
+
+  img {
+    @apply w-[100%];
+  }
+
+  .info {
+    @apply w-[100%] px-6 flex flex-col gap-2 lg:w-[50%];
+
+    p {
+      @apply text-[26px] text-gray-500;
+
+      span {
+        @apply uppercase font-semibold text-sky-800;
+      }
+    }
+  }
+
+  .activities {
+    @apply flex gap-6;
+
+    div {
+      @apply flex gap-2 items-center;
+
+      span {
+        @apply text-[20px] text-gray-500;
+      }
+
+      svg {
+        @apply h-6 text-gray-500;
+      }
+    }
+  }
+}
+
+.form {
+  @apply flex flex-wrap gap-2;
+
+  button {
+    @apply bg-gray-200 text-gray-600 px-4 py-1 rounded-md;
+  }
+}

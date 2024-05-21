@@ -1,0 +1,7 @@
+.list-container {
+  @apply flex flex-col gap-6 w-max my-0 mx-auto w-[100%] lg:w-[80%] lg:flex-row;
+
+  .column {
+    @apply flex flex-col gap-6 w-[100%];
+  }
+}

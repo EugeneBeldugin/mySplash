@@ -1,0 +1,36 @@
+.header {
+  @apply bg-gray-50 px-4 py-3 flex items-center gap-4 border-b;
+
+  a {
+    svg {
+      @apply text-gray-900 size-10;
+    }
+  }
+
+  form {
+    @apply bg-gray-200 rounded-full h-10 w-[700px] flex sm:w-[250px] md:w-[500px];
+
+    &:hover {
+      @apply bg-gray-300;
+    }
+
+    &:focus-within {
+      @apply bg-white border-solid border border-gray-300;
+    }
+
+    button {
+      @apply h-[100%] w-[7%] flex items-center justify-center sm:w-[18%] md:w-[10%];
+      svg {
+        @apply text-gray-500 size-5;
+      }
+    }
+
+    input {
+      @apply bg-inherit w-[93%] rounded-r-full text-sm;
+
+      &:focus {
+        @apply outline-none;
+      }
+    }
+  }
+}

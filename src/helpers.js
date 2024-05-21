@@ -1,0 +1,1 @@
+export const createGrid = size => Array.from({ length: size }, () => [])

@@ -1,0 +1,15 @@
+.switcher {
+  @apply w-10 h-6 flex items-center rounded-full p-1 cursor-pointer hidden lg:flex;
+
+  div {
+    @apply bg-white w-4 h-4 rounded-full shadow-md transform transition-transform hidden lg:block;
+  }
+}
+
+.grid-icon-wrapper {
+  @apply w-16 h-6 rounded-md flex justify-between p-1.5 hidden lg:flex;
+
+  .grid-icon {
+    @apply hidden lg:block;
+  }
+}
